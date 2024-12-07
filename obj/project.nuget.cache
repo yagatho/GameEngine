@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "1OZ/jr0mosE=",
+  "success": true,
+  "projectFilePath": "/mnt/Unity/Engine/GameEngine/GameEngine.csproj",
+  "expectedPackageFiles": [
+    "/home/yagatho/.nuget/packages/sdl2-cs/2.0.0/sdl2-cs.2.0.0.nupkg.sha512",
+    "/home/yagatho/.nuget/packages/vulkan/0.5.3/vulkan.0.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

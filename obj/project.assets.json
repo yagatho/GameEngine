@@ -1,0 +1,157 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "SDL2-CS/2.0.0": {
+        "type": "package"
+      },
+      "Vulkan/0.5.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Vulkan.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Vulkan.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    },
+    "net9.0/linux-x64": {
+      "SDL2-CS/2.0.0": {
+        "type": "package"
+      },
+      "Vulkan/0.5.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Vulkan.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Vulkan.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SDL2-CS/2.0.0": {
+      "sha512": "W7T4y+lMs7Wm/94dGggRxJYqxX5N6uuxuxw5ob/H34fnaoUwgoG0s+P7xzqsGXUc1cbCAjnShs21FdeFUnPlHA==",
+      "type": "package",
+      "path": "sdl2-cs/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "content/net20/SDL2-CS/LPUtf8StrMarshaler.cs",
+        "content/net20/SDL2-CS/SDL2.cs",
+        "content/net20/SDL2-CS/SDL2_image.cs",
+        "content/net20/SDL2-CS/SDL2_mixer.cs",
+        "content/net20/SDL2-CS/SDL2_ttf.cs",
+        "sdl2-cs.2.0.0.nupkg.sha512",
+        "sdl2-cs.nuspec"
+      ]
+    },
+    "Vulkan/0.5.3": {
+      "sha512": "QSMLH9RwPVnBAgZBLNbtOaQnL9J0wKmm4yqbAAg+Jxx6VVWDnlPkwTW1FLzNrJa9xDyIqExveCz0MNg6H6b2kA==",
+      "type": "package",
+      "path": "vulkan/0.5.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.1/Vulkan.dll",
+        "lib/netstandard2.1/Vulkan.xml",
+        "vk.net-64.png",
+        "vulkan.0.5.3.nupkg.sha512",
+        "vulkan.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "SDL2-CS >= 2.0.0",
+      "Vulkan >= 0.5.3"
+    ]
+  },
+  "packageFolders": {
+    "/home/yagatho/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/mnt/Unity/Engine/GameEngine/GameEngine.csproj",
+      "projectName": "GameEngine",
+      "projectPath": "/mnt/Unity/Engine/GameEngine/GameEngine.csproj",
+      "packagesPath": "/home/yagatho/.nuget/packages/",
+      "outputPath": "/mnt/Unity/Engine/GameEngine/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/yagatho/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "dependencies": {
+          "SDL2-CS": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
+          "Vulkan": {
+            "target": "Package",
+            "version": "[0.5.3, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "linux-x64": {
+        "#import": []
+      }
+    }
+  }
+}

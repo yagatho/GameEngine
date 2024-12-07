@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "restore": {
+    "/mnt/Unity/Engine/GameEngine/GameEngine.csproj": {}
+  },
+  "projects": {
+    "/mnt/Unity/Engine/GameEngine/GameEngine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/Unity/Engine/GameEngine/GameEngine.csproj",
+        "projectName": "GameEngine",
+        "projectPath": "/mnt/Unity/Engine/GameEngine/GameEngine.csproj",
+        "packagesPath": "/home/yagatho/.nuget/packages/",
+        "outputPath": "/mnt/Unity/Engine/GameEngine/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/yagatho/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "SDL2-CS": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Vulkan": {
+              "target": "Package",
+              "version": "[0.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
